@@ -1,0 +1,31 @@
+@base: 64rem;
+
+.picList{
+	width: 300px;
+	margin: 100 auto;
+}
+
+.item1{
+	width: 75/@base;
+	height: 85/@base;
+	margin: 20px auto;
+	background: url('../images/itemBg.png') no-repeat;
+	// 整张雪碧图的宽度为200px,
+	// background-size: 宽度值为整张雪碧图宽度/设计图整体宽度 
+	// background-size: 高度值auto
+	background-size: 200/@base auto;
+	// 该背景图在雪碧图的位置
+	background-position: -123/@base -7/@base;
+	display: block;
+}
+
+ .item2{
+     display: block;
+     width: 49/@base;
+     height: 52/@base;
+     margin: 20px auto;
+     background:url('../images/itemBg.png') no-repeat 0 -67/@base;
+     background-size: 200/@base auto;
+ }
+
+

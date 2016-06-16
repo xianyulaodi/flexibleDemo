@@ -1,0 +1,21 @@
+.picList {
+  width: 300px;
+  margin: 100 auto;
+}
+.item1 {
+  width: 1.171875rem;
+  height: 1.328125rem;
+  margin: 20px auto;
+  background: url('../images/itemBg.png') no-repeat;
+  background-size: 3.125rem auto;
+  background-position: -1.921875rem -0.109375rem;
+  display: block;
+}
+.item2 {
+  display: block;
+  width: 0.765625rem;
+  height: 0.8125rem;
+  margin: 20px auto;
+  background: url('../images/itemBg.png') no-repeat 0 -1.046875rem;
+  background-size: 3.125rem auto;
+}
